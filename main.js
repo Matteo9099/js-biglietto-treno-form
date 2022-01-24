@@ -50,10 +50,18 @@ button.addEventListener('click',
 )
 
 const menuToggle = document.getElementById('calcola');
+const close = document.getElementById('close');
 
 menuToggle.addEventListener('click',
     function(){
         const htmlTicket = document.querySelector('.ticket');
         htmlTicket.classList.add('active');
+    }
+)
+
+close.addEventListener('click',
+    function(){
+        const htmlTicket = document.querySelector('.ticket');
+        htmlTicket.classList.remove('active');
     }
 )
