@@ -12,6 +12,10 @@ h3{
     margin-left: 15px;
 }
 
+p{
+    font-weight: bold;
+}
+
 .form{
     display: flex;
     justify-content: center;
@@ -76,7 +80,8 @@ button{
 }
 
 .passeggero{
-    background-color: rgb(146, 141, 141);
+    background-color: rgb(49, 48, 48);
+    color: #fff;
     width: 20%;
     height: 100%;
     padding-left: 15px;
@@ -91,6 +96,7 @@ button{
 .ticket-item{
     padding: 0 50px;
     border-right: 1px solid gray;
+    text-align: center;
 }
 
 .ticket.active{
