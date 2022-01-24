@@ -54,8 +54,7 @@ button{
 }
 
 .ticket{
-    display: flex;
-    flex-direction: column;
+    display: none;
     width: 80%;
     height: 200px;
     margin: 0 auto;
@@ -86,4 +85,8 @@ button{
 
 .ticket-item{
     margin: 0 50px;
+}
+
+.ticket.active{
+    display: block;
 }
