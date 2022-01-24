@@ -8,6 +8,10 @@ h1{
     text-align: center;
 }
 
+h3{
+    margin-left: 15px;
+}
+
 .form{
     display: flex;
     justify-content: center;
@@ -47,8 +51,8 @@ button{
     font-size: large;
     border-radius: 3px;
     margin: 0 15px;
-    padding: 4px;
-    background-color: rgb(185, 178, 178);
+    padding: 4px 10px;
+    background-color: rgb(212, 204, 204);
     color: rgb(226, 8, 52);
     font-weight: bold;
 }
@@ -59,7 +63,7 @@ button{
     height: 200px;
     margin: 0 auto;
     padding: 20px 0;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #fff;
 }
 
@@ -72,10 +76,12 @@ button{
 }
 
 .passeggero{
-    background-color: grey;
+    background-color: rgb(146, 141, 141);
     width: 20%;
     height: 100%;
+    padding-left: 15px;
 }
+
 
 .dati-passeggero{
     display: flex;
@@ -83,13 +89,11 @@ button{
 }
 
 .ticket-item{
-    margin: 0 50px;
+    padding: 0 50px;
+    border-right: 1px solid gray;
 }
 
 .ticket.active{
     display: block;
 }
 
-.bg__input{
-    background-color: #c00;
-}
