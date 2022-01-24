@@ -48,3 +48,12 @@ button.addEventListener('click',
         }
     }
 )
+
+const menuToggle = document.getElementById('calcola');
+
+menuToggle.addEventListener('click',
+    function(){
+        const htmlTicket = document.querySelector('.ticket');
+        htmlTicket.classList.add('active');
+    }
+)
