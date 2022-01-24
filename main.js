@@ -25,26 +25,26 @@ button.addEventListener('click',
     
     document.getElementById('resultName').innerHTML = name;
 
-        if(name.value=="" || km.value=="" || eta.value==""){
+        if(name=="" || km=="" || eta==""){
             alert('Inserisci un valore valido.');
         }        
         else if (eta == 0){
             document.getElementById('resultEta').innerHTML = "Under 18";
             document.getElementById('resultCarrozza').innerHTML = Math.floor(Math.random()*10);
-            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random()*100);
-            document.getElementById('resultPrezzo').innerHTML = prezzoBiglietto + " &euro;";      
+            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random() * (99999 - 90000) + 90000);
+            document.getElementById('resultPrezzo').innerHTML = prezzoMinorenni.toFixed(2) + " &euro;";      
         }
         else if(eta == 2){
             document.getElementById('resultEta').innerHTML = "Over 65";
             document.getElementById('resultCarrozza').innerHTML = Math.floor(Math.random()*10);
-            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random()*100);
-            document.getElementById('resultPrezzo').innerHTML = prezzoBiglietto + " &euro;";
+            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random() * (99999 - 90000) + 90000);
+            document.getElementById('resultPrezzo').innerHTML = prezzoOver.toFixed(2) + " &euro;";
         }
         else {
             document.getElementById('resultEta').innerHTML = "Prezzo standard";
             document.getElementById('resultCarrozza').innerHTML = Math.floor(Math.random()*10);
-            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random()*100);
-            document.getElementById('resultPrezzo').innerHTML = prezzoBiglietto + " &euro;";
+            document.getElementById('resultCodice').innerHTML = Math.floor(Math.random() * (99999 - 90000) + 90000);
+            document.getElementById('resultPrezzo').innerHTML = prezzoBiglietto.toFixed(2) + " &euro;";
         }
     }
 )

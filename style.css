@@ -79,7 +79,6 @@ button{
 
 .dati-passeggero{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
