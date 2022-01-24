@@ -25,7 +25,7 @@ button.addEventListener('click',
     
     document.getElementById('resultName').innerHTML = name;
 
-        if(name=="" || km=="" || eta==""){
+        if(name=="" || km=="" || eta=="" || km <0){
             alert('Inserisci un valore valido.');
         }        
         else if (eta == 0){

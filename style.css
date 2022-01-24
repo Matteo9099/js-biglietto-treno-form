@@ -89,3 +89,7 @@ button{
 .ticket.active{
     display: block;
 }
+
+.bg__input{
+    background-color: #c00;
+}
