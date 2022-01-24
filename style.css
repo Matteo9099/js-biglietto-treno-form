@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(202, 5, 44);
+}
+
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+
+.description{
+    color: rgb(202, 5, 44);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.buttons{
+  position: absolute;
+  top: 80%;
+}
+
+button{
+    font-size: large;
+    border-radius: 3px;
+    margin: 0 15px;
+    padding: 4px;
+    background-color: rgb(185, 178, 178);
+    color: rgb(226, 8, 52);
+    font-weight: bold;
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    height: 100px;
+    width: 90%;
+    border: 2px solid gray;
+    border-right: transparent;
+}
+
+.passeggero{
+    background-color: grey;
+    width: 20%;
+    height: 100%;
+}
+
+.dati-passeggero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket-item{
+    margin: 0 50px;
+}
